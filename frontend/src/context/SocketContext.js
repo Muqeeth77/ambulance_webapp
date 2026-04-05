@@ -3,7 +3,7 @@ import { io } from "socket.io-client";
 
 export const SocketContext = createContext(null);
 
-const SOCKET_URL = "http://127.0.0.1:5000";
+const SOCKET_URL = "https://ambulancewebapp-production.up.railway.app";
 
 export const SocketProvider = ({ children }) => {
   const socketRef = useRef(null);
